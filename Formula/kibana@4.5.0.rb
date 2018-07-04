@@ -11,7 +11,6 @@ class KibanaAT450 < Formula
   head "https://github.com/elastic/kibana.git"
 
   bottle do
-    revision 1
     sha256 "6af189c5637460bdd3d78492e85d89a11adf17b6d74cedbed58bd2498cd06f55" => :el_capitan
     sha256 "785fd76f71b6fb27476a6d722e306edbf7ee5a8b473747c1a432d903c37ad766" => :yosemite
     sha256 "bc8cadd81b4a31ea1084ae5835d8950a89c4547a97231f11d00858929ed32056" => :mavericks
